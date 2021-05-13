@@ -1,0 +1,20 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Hello! package.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kattsun44/markdown-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kattsun44/markdown-editor/issues"
+  },
+  "homepage": "https://github.com/kattsun44/markdown-editor#readme"
+}
