@@ -17,3 +17,10 @@ export const putMemo = async (title: string, text: string): Promise<void> => {
   // IndexedDB に保存
   await memos.put({ datetime, title, text })
 }
+
+// テキスト履歴を取得する関数
+export const getMemos = (): Promise<MemoRecord[]> => {
+  return memos.orderBy('datetime')
+    .reverse()
+    .toArray() // 取得したデータを配列に変換
+}

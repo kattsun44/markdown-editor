@@ -11,7 +11,7 @@ const HeaderWrapper = styled.header`
 `
 
 const HeaderTitle = styled.div`
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
 `
 
 const HeaderControl = styled.div`

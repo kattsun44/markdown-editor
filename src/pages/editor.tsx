@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   left: 0;
   position: fixed;
   right: 0;
-  top: 3 rem;
+  top: 3rem;
 `
 
 const HeaderArea = styled.div`
@@ -56,7 +56,7 @@ export const Editor: React.FC = () => {
   return (
     <>
       <HeaderArea>
-        <Header title="ちょいめも">
+        <Header title="Markdown Editor">
           <Button onClick={() => setShowModal(true)}>
             保存する
           </Button>
