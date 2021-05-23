@@ -82,6 +82,7 @@ export const Editor: React.FC<Props> = (props) => {
       </HeaderArea>
       <Wrapper>
         <TextArea
+          placeholder="テキスト入力欄"
           onChange={(event) => setText(event.target.value)}
           value={text}
         />
