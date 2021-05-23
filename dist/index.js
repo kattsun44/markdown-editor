@@ -83,7 +83,7 @@
   right: 0;
   top: 0;
   width: 50vw;
-`,Va=t=>{const{text:n,setText:r}=t,[o,a]=La(!1),[i,u]=La("");return Fa((()=>{za.onmessage=e=>{u(e.data.html)}}),[]),Fa((()=>{za.postMessage(n)}),[n]),e.createElement(e.Fragment,null,e.createElement(Ua,null,e.createElement(Da,{title:"ちょいめも"},e.createElement(Ca,{onClick:()=>a(!0)},"保存する"),e.createElement(It,{to:"/history"},"履歴を見る"))),e.createElement(Ba,null,e.createElement(Ka,{onChange:e=>r(e.target.value),value:n}),e.createElement($a,null,e.createElement("div",{dangerouslySetInnerHTML:{__html:i}}))),o&&e.createElement(Na,{onSave:e=>{((e,t)=>{wa(void 0,void 0,void 0,(function*(){const n=(new Date).toISOString();yield _a.put({datetime:n,title:e,text:t})}))})(e,n),a(!1)},onCancel:()=>a(!1)}))},{useState:qa,useEffect:Wa}=t,Ha=je.div`
+`,Va=t=>{const{text:n,setText:r}=t,[o,a]=La(!1),[i,u]=La("");return Fa((()=>{za.onmessage=e=>{u(e.data.html)}}),[]),Fa((()=>{za.postMessage(n)}),[n]),e.createElement(e.Fragment,null,e.createElement(Ua,null,e.createElement(Da,{title:"Markdown Editor"},e.createElement(Ca,{onClick:()=>a(!0)},"保存する"),e.createElement(It,{to:"/history"},"履歴を見る"))),e.createElement(Ba,null,e.createElement(Ka,{onChange:e=>r(e.target.value),value:n}),e.createElement($a,null,e.createElement("div",{dangerouslySetInnerHTML:{__html:i}}))),o&&e.createElement(Na,{onSave:e=>{((e,t)=>{wa(void 0,void 0,void 0,(function*(){const n=(new Date).toISOString();yield _a.put({datetime:n,title:e,text:t})}))})(e,n),a(!1)},onCancel:()=>a(!1)}))},{useState:qa,useEffect:Wa}=t,Ha=je.div`
   position: fixed;
   right: 0;
   top: 0;

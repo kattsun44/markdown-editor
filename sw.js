@@ -1,11 +1,10 @@
 const CacheName = 'Cache:v1'
 
 self.addEventListener('install', (event) => {
-  console.log('ServiceWoker install:', event)
+  console.log('ServiceWorker install:', event)
 })
-
 self.addEventListener('activate', (event) => {
-  console.log('ServiceWorker activate', event)
+  console.log('ServiceWorker activate:', event)
 })
 
 const networkFallingBackToCache = async (request) => {
@@ -19,6 +18,7 @@ const networkFallingBackToCache = async (request) => {
     return cache.match(request)
   }
 }
+
 self.addEventListener('fetch', (event) => {
   event.respondWith(networkFallingBackToCache(event.request))
 })

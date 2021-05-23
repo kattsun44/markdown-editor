@@ -71,7 +71,7 @@ export const Editor: React.FC<Props> = (props) => {
   return (
     <>
       <HeaderArea>
-        <Header title="ちょいめも">
+        <Header title="Markdown Editor">
           <Button onClick={() => setShowModal(true)}>
             保存する
           </Button>
